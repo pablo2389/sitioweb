@@ -1,0 +1,25 @@
+{
+  "name": "miblog",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://pablo2389.github.io/miblog",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "5.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "description": "![Inove banner](/inove.jpg) Inove Escuela de Código\\ info@inove.com.ar\\ Web: [Inove](http://inove.com.ar)",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
